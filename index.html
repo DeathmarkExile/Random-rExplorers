@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random rExplorers</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    
+    <div class="header">
+      <h2>Random rExplorers</h2>
+
+      <div id="ufo">
+        <img id="ufo_gif" src="../images/ufo.gif" alt="ufo.gif">
+      </div>
+
+    </div>
+
+    <div class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Tools.html">Tools</a></li>
+          <li><a href="">Content Page 3</a></li>
+          <li><a href="">Content Page 4</a></li>
+        </ul>
+    </div>
+    
+    <div class="row">
+
+      <div class="column side">
+
+      </div>
+
+      <div class="column middle">
+        
+        <h2>Welcome to Random rExplorers!</h2>
+        <p>Everything here is random! Well, not this, not everything is random.</p>
+        <p>Anyway, this website is full of random stuff. Games, interactives, you may see them in every side of the page, so make sure to visit each page.</p>
+
+        <br>
+
+        <h3>This Number is RANDOM:</h3> 
+        <p id="rnum"></p>
+        <p>Refresh to Change it!</p>
+
+        <script src="../jsdocs/rnum.js"></script>
+
+        <br>
+
+        <p>Explore other pages to get the feel of randomness!</p>
+
+      </div>
+
+      <div class="column side">
+
+        <h4>COIN FLIPPER</h4>
+
+        <div>
+            <label for="quantity">How many times to flip?</label>
+            <input type="number" id="quantity" min="1" max="10" value="1" />
+        </div>
+
+        <button id="flip" type="button">Flip a coin!</button>
+        <div id="result"></div>
+        <script src="../jsdocs/coin_flipper.js"></script>
+
+      </div>
+
+    </div>  
+    
+</body>
+
+</html>
